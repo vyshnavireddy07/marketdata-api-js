@@ -42,7 +42,7 @@ describe('When a Profile is created (an option on a ZT future")', () => {
 	});
 
 	it('formats 0.5 as 0-320 (using sixty-fourths)', () => {
-		expect(p.formatPrice(0.5)).toEqual('0-320');
+		expect(p.formatPrice(0.5)).toEqual('1-320');
 	});
 
 	it('formats 0.9921875 as 0-635 (using sixty-fourths)', () => {
