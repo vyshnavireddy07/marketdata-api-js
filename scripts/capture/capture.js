@@ -43,7 +43,7 @@ const LoggerFactory = require('./../../lib/logging/LoggerFactory');
 		__logger.trace();
 	});
 
-	const host = process.argv[2];
+	const host = process.argv[];
 	const username = process.argv[3];
 	const password = process.argv[4];
 	const symbols = process.argv[5];
